@@ -1,0 +1,291 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+   
+}
+
+#banner{
+    background-image: url("Nikita.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo {
+    width: 210px;
+    height: 220px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+ .banner-txt{
+    text-align: center;
+
+    }
+.banner-txt h1 {
+       font-style: italic;
+       text-align: center;
+       font-size: 130px;
+       
+    }
+.banner-txt p {
+        font-size: 25px;
+        padding-top: 20px;
+        font-style: italic;
+       text-align: center;
+        font-weight: bold;
+    }
+    .banner-btn{
+        text-align: center;
+        padding-top: 20px;
+       
+    }
+.banner-btn a{
+        text-decoration: none;
+        width: 100px;
+        background-color : grey;
+        color: white;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 12px 0;
+    }
+nav ul {
+    float: right;
+    margin-right: 20px;
+  
+}
+nav li{
+        display: inline-block;
+        padding: 20px ;
+        padding-top: 30px;
+        
+    }
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+  
+    }
+#about-us{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-txt{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-txt p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title-txt h1{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.feature-box{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.about-us1 {
+    flex-basis: 50%;
+   }
+.about-us1 h3{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: black;
+    font-weight: bold;
+}
+   .about-us2{
+       flex-basis: 50%;
+       margin: auto;
+      
+   }
+.about-us2 img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.feature-txt{
+    padding: 0 20px;
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+#services{
+    width: 100%;
+    padding: 70px 0;
+
+}
+
+
+#footer{
+    padding: 100px 0 20px;
+
+    
+  }
+.table1{
+  
+    border-collapse: collapse;
+    width: 30em;
+    border-radius: 10px;
+    background-color: rgb(223, 215, 200);
+    box-shadow: 0px 10px 30px 5p rgba(0,0,20,30);
+    margin: 25px;
+    text-align: center;
+    padding: 20px;
+     
+}
+.table-1{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;;
+}
+body{
+    background-image: url('Nikita.png');
+    background-size: cover;
+}
+.footer-img{
+    max-width : 370px;
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    top: 24%;
+    transform: translate(-50%,-50%);
+}
+.container{
+    background-color: white;
+    box-shadow: 0px 0px 10pxrgb(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 800px;
+    padding: 25px 40px 10px 40px;
+   
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    background-color: rgb(223, 215, 200);
+    left: 50%;
+     margin-top: 1px;
+    transform: translate(-50%,50%);
+    text-align: center;
+    border-radius: 10px;
+
+}
+.box h1{
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.box input[type="text"],.box input[type = "email"],.box input[type="phone_no"],.box input[type="msg"]{
+    border: none;
+    background: none;
+    display: block;
+     margin-top: 13px;
+    text-align: center;
+     border: 4px solid black;
+     padding: 14px 10px;
+     width: 200px;
+     outline: none;
+     color: black;
+     border-radius: 10px;
+     transition: 0.25s;
+}
+.box input[type="Submit"]{
+    border: none;
+    background: none;
+    display: block;
+   margin-top: 20px;
+    text-align: center;
+     border: 4px solid black;
+     padding: 14px 10px;
+     width: 160px;
+     outline: none;
+     color: black;
+     border-radius: 24px;
+     transition: 0.25s;  
+     cursor: pointer;
+
+}
+
+.box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#services{
+Padding: 70px;
+}
+.service-box{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-service{
+    flex-basis: 39%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+
+}
+.single-service img{
+    width: 100%;
+    border-radius: 7px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.2),#ccac93);
+    opacity: 0;
+    transition: 1s;
+}
+.single-service:hover .overlay{
+    opacity: 1;
+
+}
+.service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-weight: bold;
+    transform: translateX(-50%);
+    transition: 1s;
+    
+}
+span:hover{
+    color: white;
+}
+.single-service:hover .service-desc{
+    bottom: 40%;
+    opacity: 1;
+}
